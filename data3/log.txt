@@ -1,0 +1,34 @@
+Logging started at 413814569000.
+Setup Accelerometer [ADXL345].
+Scaling Factor: 0.00390625
+Starting ADXL345 thread.
+Setup Gyroscope [ITG3205].
+Starting ITG3205 thread.
+Setup Magnetometer [HMC5883L].
+Scaling Factor: 0.92
+Starting HMC5883L thread.
+Setup Barometer [MS5611].
+Starting MS5611 thread.
+Setup ADC [ADS1115].
+ADS1115 timeout: 5813950
+Starting ADS1115 thread.
+Setup status monitor.
+Setup server.
+Listing on port 4444.
+
+?: help
+f: loop frequency
+s/S: system status (local/remote)
+a/A: accelerometer (local/remote)
+g/G: gyroscope (local/remote)
+m/M: magnetometer (local/remote)
+b/B: barometer (local/remote)
+c/C: analog (local/remote)
+p/P: gps (local/remote)
+r/R: radio (local/remote)
+q: quit
+
+latitude=0.0,	longitude=0.0,	altitude=0.0 m MSL,	fix=no fix	satellites=0
+A0=2.0 mV,	A1=665.5 mV,	A2=661.5 mV,	A3=591.875 mV
+A0=4.625 mV,	A1=665.625 mV,	A2=661.0 mV,	A3=590.625 mV
+A0=2.5 mV,	A1=665.25 mV,	A2=662.25 mV,	A3=592.0 mV
