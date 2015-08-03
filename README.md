@@ -1,29 +1,38 @@
+![Launch](artwork/launch.jpg?raw=true)
+![Data Acquisition Unit](artwork/electronics.jpg?raw=true)
+
 # About
 Data collected from the [April 18th, 2015 launch] of the [Galactic Aztec], a 27 foot liquid propellant rocket designed and built by [SDSU Rocket Project].
 
-The rocket flew with three data acquisition units but unfortunately unit #2 was lost in the onboard fire.
+The rocket flew with three data acquisition units but unfortunately data from unit #2 was lost because of the onboard fire.
 
 Data was collected using Raspberry Pi's running custom Java based [data acquisition software]. The file format is a minimalistic binary format and was converted to CSV format so that it could easily to imported into MATLAB for analysis.
+
+Further details on the design and setup of the electronics used to collect the data can be found on the [Galactic Aztec Raspberry Pi Add-on: Pressure Transducer Interface] page.
+
 
 # Data
 *Below are screenshots of the graphs produced from some of the data collected on data acquisition unit #1.*
 
-## Acceleromter
-![Accelerometer](images/accelerometer1.png?raw=true)
+## Accelerometer
+![Accelerometer](artwork/accelerometer1.png?raw=true)
 
 ## Gyroscope
-![Gyroscope](images/gyroscope1.png?raw=true)
+![Gyroscope](artwork/gyroscope1.png?raw=true)
 
 ## Barometer
-![Barometer](images/barometer1.png?raw=true)
+![Barometer](artwork/barometer1.png?raw=true)
 
 ## Magnetometer
-![Magnetometer](images/magnetometer1.png?raw=true)
+![Magnetometer](artwork/magnetometer1.png?raw=true)
 
 ## Pressures
-![ADC](images/pressures1.png?raw=true)
+![ADC](artwork/pressures1.png?raw=true)
 
-Although less evident on the **Pressures** graph, the ADS1115 did not have an intuitive means of determining if an ADC read had completed (aside from watching a pin get pulled high, but that yielded lower than desirable sampling frequencies) so we would occassionally misread a data point as the wrong channel. In many cases the neighboring channel was reading in a significantly different range so these misreads could likely be easily identified and filtered appropriately.
+Although less evident on the **Pressures** graph, the ADS1115 did not have an intuitive means of determining if an ADC read had completed (aside from watching a pin get pulled high, but that yielded lower than desirable sampling frequencies) so we would occasionally misread a data point as the wrong channel. In many cases the neighboring channel was reading in a significantly different range so these misreads could likely be easily identified and filtered appropriately.
+
+We also suffered a failure on the readings from the pressure transducer that was reading motor chamber pressure which resulted in abnormally low and inaccurate pressure readings.
+
 
 # Sensors
 Sensor        | Device
@@ -40,3 +49,4 @@ ADC           | Adafruit ADS1115
 [Galactic Aztec]: http://rocket.sdsu.edu/rockets
 [SDSU Rocket Project]: http://rocket.sdsu.edu
 [data acquisition software]: https://github.com/twyatt/sdsu-rocket
+[Galactic Aztec Raspberry Pi Add-on: Pressure Transducer Interface]: https://raw.githubusercontent.com/twyatt/galactic-aztec-rpi-addon-pressure
