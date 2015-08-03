@@ -1,5 +1,5 @@
-![Launch](artwork/launch.jpg?raw=true)
-![Data Acquisition Unit](artwork/electronics.jpg?raw=true)
+[![Launch](artwork/thumb_launch.jpg?raw=true)](artwork/launch.jpg?raw=true)
+[![Data Acquisition Unit](artwork/thumb_electronics.jpg?raw=true)](artwork/electronics.jpg?raw=true)
 
 # About
 Data collected from the [April 18th, 2015 launch] of the [Galactic Aztec], a 27 foot liquid propellant rocket designed and built by [SDSU Rocket Project].
