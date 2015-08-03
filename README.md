@@ -49,4 +49,4 @@ ADC           | Adafruit ADS1115
 [Galactic Aztec]: http://rocket.sdsu.edu/rockets
 [SDSU Rocket Project]: http://rocket.sdsu.edu
 [data acquisition software]: https://github.com/twyatt/sdsu-rocket
-[Galactic Aztec Raspberry Pi Add-on: Pressure Transducer Interface]: https://raw.githubusercontent.com/twyatt/galactic-aztec-rpi-addon-pressure
+[Galactic Aztec Raspberry Pi Add-on: Pressure Transducer Interface]: https://github.com/twyatt/galactic-aztec-rpi-addon-pressure
