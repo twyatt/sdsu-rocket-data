@@ -1,0 +1,33 @@
+Logging started at 20917024456954
+Setup ADC ADS1114 [A0]
+Setup ADC ADS1114 [A1]
+Setup ADC ADS1114 [A2]
+Setup ADC ADS1114 [A3]
+Setup ADC ADS1100 [A4]
+Supply Voltage: 5.0
+Setup ADC ADS1100 [A5]
+Supply Voltage: 5.0
+Setup status monitor
+Setup server
+Listening on port 4444
+[A0=1074.375, A1=990.5625, A2=1005.9375, A3=999.5625, A4=674.3311, A5=697.9918]
+[A0=1075.875, A1=991.125, A2=1007.25, A3=999.5625, A4=675.2411, A5=695.86847]
+[A0=1078.6875, A1=992.4375, A2=1007.4375, A3=1000.125, A4=675.5445, A5=697.9918]
+[A0=1070.0625, A1=990.75, A2=1006.125, A3=999.75, A4=674.93787, A5=699.20526]
+[A0=1069.5, A1=992.625, A2=1006.5, A3=1000.3125, A4=675.84784, A5=697.68854]
+[A0=1132.6875, A1=990.375, A2=1006.5, A3=998.25, A4=677.0612, A5=699.20526]
+[A0=1131.75, A1=989.8125, A2=1007.25, A3=998.625, A4=675.84784, A5=698.5986]
+[A0=1133.0625, A1=990.375, A2=1006.6875, A3=997.3125, A4=677.6679, A5=698.2952]
+[A0=1133.0625, A1=990.375, A2=1007.25, A3=999.0, A4=677.0612, A5=696.1718]
+[A0=1134.1875, A1=989.8125, A2=1008.1875, A3=998.625, A4=676.4545, A5=698.2952]
+[A0=1135.125, A1=990.0, A2=1007.0625, A3=998.4375, A4=676.15125, A5=700.11523]
+Shutting down
+Stopping server
+java.net.SocketException: Socket closed
+java.lang.InterruptedException: sleep interrupted
+Stopping status monitor
+java.lang.InterruptedException: sleep interrupted
+Stopping device manager
+java.lang.InterruptedException: sleep interrupted
+java.lang.InterruptedException: sleep interrupted
+Closing log streams

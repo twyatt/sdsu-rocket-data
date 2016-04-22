@@ -1,0 +1,23 @@
+Logging started at 22570955075467
+Setup Phidget Bridge [loadcell]
+Waiting for the Phidget Bridge to be attached ...
+Name: Phidget Bridge 4-input
+Serial #: 404844
+Version: 102
+# Bridges: 4
+Data rate: 8
+Setup status monitor
+Setup server
+Listening on port 4445
+Bridge=-0.00276882 mV/V
+Bridge=-0.00139326 mV/V
+Bridge=-0.00195578 mV/V
+Shutting down
+Stopping server
+java.net.SocketException: Socket closed
+java.lang.InterruptedException: sleep interrupted
+Stopping status monitor
+java.lang.InterruptedException: sleep interrupted
+Stopping device manager
+Stopping Phidgets
+Closing log streams
